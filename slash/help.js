@@ -9,7 +9,7 @@ module.exports = {
       .setTitle(`Commands of ${client.user.username}`)
       .setColor('#2F3136')
       .setDescription('**Please Select a category to view all its commands**')
-      .addFields({ name: `Links:`, value: `- [Youtube Channel](https://youtube.com/c/Zerosync)\n- [Discord Server](https://discord.gg/ARu4hr6hJw)\n- [GitHub](https://github.com/ZeroDiscord/Giveaway)`, inline: true })
+      .addFields({ name: `Fun Facts:`, value: `- Did you know? This bot can handle multiple giveaways at once!\n- IM BORED\n- You can customize giveaway requirements (for mods dummy)`, inline: true })
       
       .setTimestamp()
       .setFooter({

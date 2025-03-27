@@ -9,9 +9,9 @@ module.exports.run = async (client, message, args) => {
         .setStyle(ButtonStyle.Link)
         .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=applications.commands%20bot`),
         new ButtonBuilder()
-        .setLabel('Support Server')
+        .setLabel('Support Website')
         .setStyle(ButtonStyle.Link)
-        .setURL("https://discord.gg/ARu4hr6hJw"),
+        .setURL("https://pxi-fusion.com/"),
     )
     let invite = new EmbedBuilder()
      .setAuthor({ 

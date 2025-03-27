@@ -9,7 +9,7 @@ const client = new Client({
   ],
   intents: [
     GatewayIntentBits.Guilds, // for guild related things
-    GatewayIntentBits.GuildInvites, // for guild invite managing
+    GatewayIntentBits.GuildMembers,
     GatewayIntentBits.GuildMessages, // for guild messages things
     GatewayIntentBits.GuildMessageReactions, // for message reactions things
     GatewayIntentBits.MessageContent, // enable if you need message content things
